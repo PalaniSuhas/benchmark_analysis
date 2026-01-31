@@ -48,7 +48,7 @@ python search_benchmark_gridsearch.py
 
 ## Results
 
-View live interactive dashboard: https://YOUR_USERNAME.github.io/benchmark_analysis/visualizations/
+View live interactive dashboard: https://palanisuhas.github.io/benchmark_analysis/visualizations/
 
 Key findings:
 - Brave: Faster average search time (0.5s vs 1.1s)
