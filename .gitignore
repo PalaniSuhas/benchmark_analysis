@@ -3,4 +3,4 @@ venv/
 pdfs/
 __pycache__/
 *DS_Store
-*.pdf 
+

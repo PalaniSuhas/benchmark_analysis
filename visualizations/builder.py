@@ -1,65 +1,71 @@
 import os
 
-# Define paths
-viz_dir = '/Users/kusugi23/Downloads/try/visualizations'
-report_path = '/Users/kusugi23/Downloads/try/Web Search Analysis.pdf'
-output_file = os.path.join(viz_dir, 'index.html')
+# Use relative paths so it works anywhere (Local or GitHub)
+viz_dir = '.' 
+report_path = '../Web Search Analysis.pdf'
+output_file = 'index.html'
 
-# Get all html files
-os.chdir(viz_dir)
-files = [f for f in os.listdir('.') if f.endswith('.html') and f != 'index.html']
+# Get all html files in the current directory
+files = [f for f in os.listdir(viz_dir) if f.endswith('.html') and f != 'index.html']
 files.sort()
 
 # Build the sidebar buttons
 buttons_html = ""
 for f in files:
-    buttons_html += f'<button onclick="loadViz(\'{f}\', this)">{f}</button>\n'
+    # Clean up the filename for the display label (e.g., "1_performance" -> "Performance")
+    display_name = f.replace('_', ' ').replace('.html', '').title()
+    buttons_html += f'<button onclick="loadViz(\'{f}\', this)">{display_name}</button>\n'
 
-# Add the PDF Report button at the end
-# Note: Since the PDF is one folder up, we use '../' to reference it
+# Add the PDF Report button if it exists relative to this folder
 if os.path.exists(report_path):
     buttons_html += '<hr style="border: 0; border-top: 1px solid #555; margin: 15px 0;">'
-    buttons_html += f'<button onclick="loadViz(\'../Web Search Analysis.pdf\', this)" style="background: #2e7d32; color: white;">📄 View Report (PDF)</button>'
+    buttons_html += f'<button onclick="loadViz(\'{report_path}\', this)" style="background: #2e7d32; color: white;">📄 View Report (PDF)</button>'
 
 html_content = f"""
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Analysis Dashboard</title>
+    <title>Benchmark Analysis Dashboard</title>
     <style>
-        body {{ display: flex; margin: 0; font-family: -apple-system, sans-serif; height: 100vh; background: #222; }}
+        body {{ display: flex; margin: 0; font-family: -apple-system, sans-serif; height: 100vh; background: #222; overflow: hidden; }}
         #sidebar {{ width: 280px; background: #333; border-right: 1px solid #444; padding: 20px; overflow-y: auto; flex-shrink: 0; }}
-        #content-area {{ flex-grow: 1; background: white; }}
+        #viewer-container {{ flex-grow: 1; background: white; position: relative; }}
         iframe {{ width: 100%; height: 100%; border: none; }}
         button {{ 
             display: block; width: 100%; text-align: left; padding: 12px; margin-bottom: 8px; 
             cursor: pointer; border: none; border-radius: 6px; background: #444; color: #ddd;
-            transition: 0.2s; font-size: 14px;
+            transition: 0.2s; font-size: 13px; line-height: 1.4;
         }}
         button:hover {{ background: #555; color: white; }}
-        button.active {{ background: #007AFF; color: white; }}
-        h2 {{ font-size: 1.1rem; margin-top: 0; color: #007AFF; text-transform: uppercase; letter-spacing: 1px; }}
+        button.active {{ background: #007AFF; color: white; font-weight: bold; }}
+        h2 {{ font-size: 0.9rem; margin-top: 0; color: #888; text-transform: uppercase; letter-spacing: 2px; }}
     </style>
 </head>
 <body>
 
 <div id="sidebar">
-    <h2>Project Assets</h2>
+    <h2>Benchmarks</h2>
     <div id="buttons">
         {buttons_html}
     </div>
 </div>
 
-<iframe id="viewer" src="{files[0] if files else ''}"></iframe>
+<div id="viewer-container">
+    <iframe id="viewer" src="{files[0] if files else ''}"></iframe>
+</div>
 
 <script>
     function loadViz(file, btn) {{
         document.getElementById('viewer').src = file;
-        document.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+        let btns = document.querySelectorAll('button');
+        btns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
     }}
-    // Highlight the first button on load
-    document.querySelector('button').classList.add('active');
+    // Initialize first button
+    window.onload = function() {{
+        const firstBtn = document.querySelector('button');
+        if (firstBtn) firstBtn.classList.add('active');
+    }};
 </script>
 
 </body>
@@ -69,4 +75,4 @@ html_content = f"""
 with open(output_file, "w") as f:
     f.write(html_content)
 
-print(f"Successfully created dashboard at {output_file}")
+print(f"Portable dashboard created: {len(files)} visuals indexed.")
