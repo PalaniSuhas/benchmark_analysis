@@ -1,0 +1,1391 @@
+{
+  "benchmark_metadata": {
+    "date": "2026-01-30",
+    "total_queries": 5,
+    "providers": [
+      "Tavily",
+      "Brave"
+    ],
+    "evaluators": [
+      "GPT-4o",
+      "GPT-4o Mini",
+      "GPT-4.1",
+      "GPT-5",
+      "GPT-5 Mini",
+      "GPT-5 Nano",
+      "GPT-5.2",
+      "GPT-5.2 Pro",
+      "Gemini 2.0 Flash",
+      "Gemini 2.5 Flash",
+      "Gemini 2.5 Pro"
+    ]
+  },
+  "detailed_results": [
+    {
+      "category": "geopolitics",
+      "query": "latest global geopolitical developments January 2026",
+      "providers": [
+        {
+          "provider": "Tavily",
+          "search_time": 0.984,
+          "num_results": 3,
+          "sources": [
+            "https://www.reuters.com/video/watch/idRW989026012026RP1/",
+            "https://caliber.az/en/post/pilot-captures-record-breaking-auroras-in-astonishing-shots-mid-flight",
+            "https://mezha.net/eng/bukvy/bluesky-2026-roadmap-focuses-on-discover-and-core-features/"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 4.108,
+              "scores": {
+                "relevance_score": 3,
+                "freshness_score": 8,
+                "quality_score": 5,
+                "usefulness_score": 3,
+                "coverage_score": 4,
+                "overall_score": 4.6,
+                "reasoning": "The search results provide some relevant information regarding global geopolitical developments in January 2026, particularly related to Trump and Greenland, and tensions in different regions. However, the information is fragmented and not exhaustive in covering the latest global geopolitical issues. While the articles are recent, indicating high freshness, the sources lack depth in authority and comprehensiveness, bringing down quality and coverage. This limits the usefulness of the search results in fully answering the query."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.67,
+              "scores": {
+                "relevance_score": 4,
+                "freshness_score": 10,
+                "quality_score": 6,
+                "usefulness_score": 5,
+                "coverage_score": 4,
+                "overall_score": 5.0,
+                "reasoning": "The search results have a mix of geopolitical content, with recent developments, particularly about Trump and international relations, but they do not comprehensively address the query about 'latest global geopolitical developments.' The freshness of the information is excellent, as the articles are dated January 2026. The sources vary in authority; Reuters is strong, while the others are less established. Overall, while moderately relevant, they lack breadth in covering the global aspect of geopolitical developments."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 5.021,
+              "scores": {
+                "relevance_score": 5,
+                "freshness_score": 10,
+                "quality_score": 5,
+                "usefulness_score": 4,
+                "coverage_score": 3,
+                "overall_score": 5.4,
+                "reasoning": "The results contain some recent (January 2026) geopolitical developments, such as US-Greenland discussions, German policy, and a report on espionage; however, they are fragmentary, and coverage is limited to scattered headlines rather than a structured overview. Sources like Reuters are credible, but others are less recognizable for global affairs. While up-to-date and somewhat authoritative, usefulness and coverage are limited without a more in-depth or broad summary."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 17.1,
+              "scores": {
+                "relevance_score": 2,
+                "freshness_score": 9,
+                "quality_score": 5,
+                "usefulness_score": 2,
+                "coverage_score": 2,
+                "overall_score": 4.0,
+                "reasoning": "Results are mostly off-target or incidental: only the Reuters page includes some relevant January 2026 geopolitical snippets, while the others are unrelated articles with sidebar/world lists. Freshness is strong (January 2026 dates), but source quality is mixed (Reuters strong, others weaker), and the set lacks synthesis and breadth, making it of limited usefulness and coverage for a global geopolitical roundup."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 10.649,
+              "scores": {
+                "relevance_score": 4,
+                "freshness_score": 8,
+                "quality_score": 5,
+                "usefulness_score": 4,
+                "coverage_score": 3,
+                "overall_score": 4.8,
+                "reasoning": "Mixed relevance: one Reuters result directly relates to Jan 2026 geopolitical items (Greenland, US-EU comments) but the other two results are mostly off-topic (photo site and a tech/roadmap page) or low-authority. Freshness is high (results dated Jan 2026). Quality is mid-range because Reuters is authoritative but the other sources are weaker. Usefulness and coverage are limited \u2014 the set is not comprehensive across global geopolitical developments and misses many major regions/topics."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 10.346,
+              "scores": {
+                "relevance_score": 4,
+                "freshness_score": 5,
+                "quality_score": 4,
+                "usefulness_score": 4,
+                "coverage_score": 3,
+                "overall_score": 4.0,
+                "reasoning": "The set includes one strong geopolitical item from Reuters about January 2026 events (Greenland, Davos) but also items that are older or tangential (2016 chlorine gas attack, Tehran/Iran espionage, Bluesky roadmap). Overall relevance and usefulness are moderate; freshness is generally good for January 2026, but coverage of diverse geopolitical topics is limited."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 9.212,
+              "scores": {
+                "relevance_score": 4,
+                "freshness_score": 8,
+                "quality_score": 4,
+                "usefulness_score": 4,
+                "coverage_score": 3,
+                "overall_score": 4.6,
+                "reasoning": "The query asks for the latest global geopolitical developments in January 2026, implying a broad, news-summary style answer. Only the Reuters item clearly relates to geopolitics (Greenland/tariffs remarks) and is dated Jan 21, 2026, so freshness is good. The other two results appear to be loosely related aggregators/side content pages where geopolitics is not the main focus (auroras article with embedded headlines; a Bluesky roadmap page with mixed news snippets), reducing relevance and usefulness. Source quality is mixed: Reuters is highly authoritative, but caliber.az and mezha.net/bukvy are less clearly authoritative and the pages look like tangential or mixed-topic content rather than comprehensive geopolitical reporting. Coverage is weak because only a handful of topics are surfaced (US-Greenland/EU tariffs, a few scattered items like Israel/Iran espionage, Germany/peace board, migration in Spain) with no systematic global overview (e.g., major conflicts, diplomacy, sanctions, elections, energy, Asia/Africa/LatAm breadth)."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 4.96,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 10,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.8,
+                "reasoning": "The search results are highly relevant, specifically mentioning 'January 2026' and providing multiple geopolitical events from that exact month. Freshness is perfect. Source quality is generally good, with Reuters being a top-tier news source, and others appearing credible. The snippets offer concrete, useful examples of global geopolitical developments, covering various regions and types of events, providing good coverage for the query."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 15.46,
+              "scores": {
+                "relevance_score": 0,
+                "freshness_score": 0,
+                "quality_score": 0,
+                "usefulness_score": 0,
+                "coverage_score": 0,
+                "overall_score": 0.0,
+                "reasoning": "The search results are entirely nonsensical and fabricated. The query is for a future date (January 2026), and the search provider has returned results where the snippets are completely disconnected from the actual article titles. For example, geopolitical headlines are listed under articles about a 'crying horse' toy, aurora photos, and a social media roadmap. This indicates the information is likely hallucinatory, factually impossible, and completely untrustworthy, making it useless for answering the user's query."
+              }
+            }
+          ]
+        },
+        {
+          "provider": "Brave",
+          "search_time": 0.513,
+          "num_results": 3,
+          "sources": [
+            "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook",
+            "https://www.cfr.org/articles/visualizing-2026-five-foreign-policy-trends-watch",
+            "https://www.eurasiagroup.net/issues/top-risks-2026"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 3.452,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 5,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 6.6,
+                "reasoning": "The search results are moderately relevant to the query about the latest global geopolitical developments in January 2026. Most sources discuss broader trends for 2026 rather than specific developments from January, which slightly reduces freshness and relevance. The sources are highly authoritative, such as EY and the Council on Foreign Relations, boosting the quality score. Usefulness is reasonably high as the results provide insight into expected geopolitical trends, though not specifically for January. Coverage is decent, but a more varied range of topics or perspectives, including specific January incidents, would improve this aspect."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.176,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.0,
+                "reasoning": "The results are highly relevant to the query about geopolitical developments in January 2026, with sources specifically addressing trends and risks for that period. The information is pertinent and timely, focusing on upcoming events and policy trends. The sources are reputable organizations, contributing to their authority. However, while they touch on various aspects, the coverage could be broader to include more diverse viewpoints or developments, particularly specific events or major international reactions."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 4.227,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 8,
+                "overall_score": 8.8,
+                "reasoning": "The results are highly relevant to the query about global geopolitical developments in January 2026, with content from recognized authorities such as EY, CFR, and Eurasia Group. All sources are up-to-date, directly referencing 2026. The information appears to be comprehensive and high quality, addressing risks, trends, and outlooks. The only minor limitation is that only three sources are shown, so coverage could be slightly broader, but all key geopolitical aspects seem addressed. This set would provide a robust grounding for answering the query."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 18.737,
+              "scores": {
+                "relevance_score": 6,
+                "freshness_score": 8,
+                "quality_score": 9,
+                "usefulness_score": 5,
+                "coverage_score": 6,
+                "overall_score": 6.8,
+                "reasoning": "Results are timely 2026 outlooks from authoritative sources, aligning with geopolitics in January 2026. However, they focus on risks/trends rather than specific latest developments, limiting immediate news utility and breadth of event coverage."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 10.654,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.4,
+                "reasoning": "Results are highly relevant to 'global geopolitical developments January 2026' \u2014 they are timely (Jan/2026 outlooks) and from authoritative organizations (EY, CFR, Eurasia Group). They provide strong analysis of 2026 risks and trends but are more strategic outlooks than real-time breaking-news updates, and the set is small so some topic areas (regional incident reports, immediate events) may be missing."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 10.852,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 6,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 8,
+                "overall_score": 7.8,
+                "reasoning": "Relevance: results directly relate to geopolitical developments in 2026. Freshness: sources are likely pre-2026 but still timely for the January 2026 timeframe. Quality: sources are authoritative (EY, CFR, Eurasia Group). Usefulness: provides trend-based and risk-oriented insights that support understanding the query. Coverage: covers developments, trends, and risks across regions, though not strictly January\u2011specific breaking news."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 4.505,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 6,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 6.8,
+                "reasoning": "Results are generally aligned with the intent (global geopolitical developments/trends for 2026), but skew toward forward-looking risk/trend reports and a webcast rather than a news-style summary of developments specifically in January 2026. Sources are authoritative (EY, CFR, Eurasia Group) and likely high quality, but may be analysis-driven with limited granular timelines. Freshness appears mixed/unclear from snippets (some references to January and 2026 content, but not explicitly \u2018latest\u2019 January 2026 updates). Usefulness is solid for contextualizing major risks/trends but less ideal for pinpointing \u2018latest developments\u2019 in that month. Coverage includes multiple perspectives (consulting, policy think tank, geopolitical risk firm) but only three results and limited topical diversity beyond macro risk/trend framing."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 10.691,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 10,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.8,
+                "reasoning": "The search engine provided excellent results given the inherently future-dated query. As 'latest global geopolitical developments January 2026' refers to a future period, the search results correctly returned high-quality analyses, forecasts, and trends *for* 2026. The sources (EY, Council on Foreign Relations, Eurasia Group) are highly authoritative. The results covered various aspects like general developments, foreign policy trends, and top risks. The EY result even directly mentioned 'January 2026' in the context of a webcast. While not 'latest events' in the real-time sense, they represent the latest expert *projections* for the specified future period, making them highly relevant and useful for the query's intent."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 13.208,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 10,
+                "quality_score": 10,
+                "usefulness_score": 10,
+                "coverage_score": 9,
+                "overall_score": 9.6,
+                "reasoning": "The search engine correctly interpreted a query about a future date as a request for forecasts and predictions. The results are from highly authoritative sources (EY, CFR, Eurasia Group) in the field of geopolitics. They provide excellent coverage by discussing the topic from business, foreign policy, and political risk perspectives, making them extremely useful for a comprehensive summary."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "query": "major sports events and highlights January 2026",
+      "providers": [
+        {
+          "provider": "Tavily",
+          "search_time": 0.718,
+          "num_results": 3,
+          "sources": [
+            "https://www.newsweek.com/how-to-watch-x-games-aspen-2026-live-stream-tv-channel-11410251",
+            "https://www.cincinnati.com/story/sports/nfl/2026/01/24/when-is-2026-super-bowl-broncos-patriots-seahawks-rams/85756310007/",
+            "https://www.cbsnews.com/minnesota/video/eden-prairie-high-school-educator-named-finalist-for-national-award/"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 5.145,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 8,
+                "quality_score": 7,
+                "usefulness_score": 6,
+                "coverage_score": 5,
+                "overall_score": 6.6,
+                "reasoning": "1. Relevance: The first two results are relevant as they pertain to major sports events (X Games and NFL playoffs) in January 2026. The third result is not relevant to sports events. 2. Freshness: The events are occurring in January 2026, aligning well with the query's timeframe. 3. Quality: Newsweek and cincinnati.com are reputable sources for sports coverage. 4. Usefulness: The first two results provide specific information on major sports events, which is useful for the query, but the third result does not add value. 5. Coverage: While the results cover some major events, they are limited in scope, not addressing a wider range of sports highlights or events in January 2026."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.749,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 10,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.8,
+                "reasoning": "The results are highly relevant to the query as they include major sports events happening in January 2026, specifically the X Games and the Super Bowl. The information is very recent, as it pertains to events scheduled for that exact month. Sources such as Newsweek and cincinnati.com are authoritative and credible. Although not all results directly address highlights, they provide useful context on significant events. Coverage could improve with a broader range of sports events listed."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 4.415,
+              "scores": {
+                "relevance_score": 6,
+                "freshness_score": 10,
+                "quality_score": 7,
+                "usefulness_score": 6,
+                "coverage_score": 4,
+                "overall_score": 6.6,
+                "reasoning": "The results provide timely and valid information about specific sports events in January 2026, such as the X Games Aspen and NFL championship games. The sources are reputable and up to date. However, the coverage is limited, lacking breadth across major global sports and comprehensive highlights. There is minimal summarization of significant moments, and some results are only tangentially relevant (e.g., high school athlete achievements)."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 14.646,
+              "scores": {
+                "relevance_score": 4,
+                "freshness_score": 8,
+                "quality_score": 6,
+                "usefulness_score": 3,
+                "coverage_score": 2,
+                "overall_score": 4.6,
+                "reasoning": "Mixed relevance: one clear January event (X Games), one tangential NFL postseason/Super Bowl piece, one irrelevant local video. Freshness is strong (late Jan 2026). Sources are mainstream but not comprehensive. Usefulness and coverage are low since there\u2019s no roundup of major events or highlights across sports."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 9.623,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 10,
+                "quality_score": 8,
+                "usefulness_score": 6,
+                "coverage_score": 5,
+                "overall_score": 7.2,
+                "reasoning": "Results include timely coverage of two major January 2026 sports items (X Games Aspen, NFL postseason/Super Bowl timing) from reputable outlets (Newsweek, Gannett/cincinnati.com) so relevance, freshness, and source quality are strong. However the third result is largely irrelevant (local human-interest video), overall coverage of major January sports is incomplete (missing NHL, NBA, college bowls, international events), and usefulness is limited by sparse breadth and lack of a single comprehensive summary."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 8.5,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 8,
+                "quality_score": 7,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.0,
+                "reasoning": "The results are mostly relevant: two sports-focused items about January 2026 events (X Games Aspen 2026, 2026 Super Bowl date) match the query. One result is non-sport unrelated (CBS News). Freshness is good for January 2026. Overall quality is credible for the sports items; coverage is moderate, focusing on a couple of major events rather than a comprehensive list of January 2026 sports highlights."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 4.886,
+              "scores": {
+                "relevance_score": 5,
+                "freshness_score": 7,
+                "quality_score": 5,
+                "usefulness_score": 4,
+                "coverage_score": 3,
+                "overall_score": 4.8,
+                "reasoning": "Query asks for a broad roundup of major sports events and highlights in January 2026. One result (X Games Aspen 2026) is directly relevant to a major January event; the Super Bowl/date article is partially relevant but focuses on February and includes dubious/possibly incorrect matchup details for Jan 2026, reducing trust. The CBS local news clip is largely irrelevant to major events/highlights. Freshness is fairly good (Jan 2026 timestamps), but overall authority/comprehensiveness is limited: sources are mainstream media yet not optimized for a month-wide highlights roundup. Usefulness and coverage are low because only one clear major event is covered and there\u2019s no broad cross-sport summary (e.g., NHL, NBA, tennis, soccer, college sports, motorsport) or curated highlights."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 9.46,
+              "scores": {
+                "relevance_score": 4,
+                "freshness_score": 2,
+                "quality_score": 3,
+                "usefulness_score": 2,
+                "coverage_score": 3,
+                "overall_score": 2.8,
+                "reasoning": "The search results are poor. While the X Games Aspen 2026 result is relevant and accurate for a future event, the NFL Championship result is highly problematic. It refers to January 2026 but provides team matchups and records that are almost certainly incorrect and fabricated for that future date, severely impacting its freshness, quality, and usefulness. The third result covers only minor local sports, not 'major sports events' as requested. The presence of factually incorrect information for a future event significantly undermines the overall quality and reliability of the search context, making it largely unhelpful for the query."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 15.384,
+              "scores": {
+                "relevance_score": 6,
+                "freshness_score": 3,
+                "quality_score": 3,
+                "usefulness_score": 5,
+                "coverage_score": 3,
+                "overall_score": 4.0,
+                "reasoning": "The search results successfully identify two relevant major sporting events for January 2026: the X Games and the NFL conference championships. However, the quality of the information is extremely low. The details in the NFL result (specific teams) are clearly fabricated or based on a template from a past year, making the content untrustworthy. The third result about a high school educator is irrelevant to the query for 'major' events. The coverage is also poor, as it misses other globally significant events that typically occur in January, such as the Australian Open in tennis."
+              }
+            }
+          ]
+        },
+        {
+          "provider": "Brave",
+          "search_time": 0.923,
+          "num_results": 3,
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_in_sports",
+            "https://www.theguardian.com/sport/2026/jan/01/26-for-2026-unmissable-sporting-events-over-the-next-12-months",
+            "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 4.097,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 7,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 8,
+                "overall_score": 8.0,
+                "reasoning": "The search results are highly relevant, providing a list of major sports events and highlights for January 2026, which aligns with the original query. The sources are recent enough and presumed to be updated regularly, especially the Wikipedia entry that tends to have current information. The quality of the sources, including well-known sites like Wikipedia, The Guardian, and the official Olympics website, is high. They are authoritative and provide comprehensive coverage on the topic. The results offer different aspects of upcoming sports events and highlights in January 2026, making them useful. Overall, the results are well-aligned with the query intent, providing a good degree of detail and variety."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.89,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.2,
+                "reasoning": "The results are highly relevant to the query about major sports events in January 2026, with direct mentions of pertinent events. The information is fresh, as it pertains to upcoming events in 2026. The sources are authoritative and comprehensive, primarily from Wikipedia, The Guardian, and Olympics.com, which are reliable. While the information is useful, it could better cover a wider array of sports events beyond the highlighted championships."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 4.002,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.8,
+                "reasoning": "The results are highly relevant to the query about major sports events and highlights in January 2026, referencing major handball championships and the Winter X Games specifically in January. The sources are authoritative (Wikipedia, The Guardian, Olympics.com) and up-to-date for future events. The information is very useful for someone seeking highlights or planning around sports events in January 2026. Nearly all major sports events mentioned for that period are covered, though a few minor or regional events might be missing, slightly lowering coverage."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 27.432,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 7,
+                "coverage_score": 7,
+                "overall_score": 7.8,
+                "reasoning": "Results focus on 2026 sports with month-by-month guides that include January events (Wikipedia, Olympics.com), while the Guardian offers a year overview. Freshness is high (2026-specific, likely updated; Guardian dated Jan 1, 2026). Sources are authoritative. Usefulness is good for listing January events but lacks specific January highlights/recaps. Coverage is broad across sports but thin on detailed highlights and limited to three sources."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 10.352,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.8,
+                "reasoning": "All three results are highly relevant to \"major sports events and highlights January 2026\": Wikipedia and the Olympics site provide month-by-month/event listings (including January events like the European Men's Handball Championship) and The Guardian offers a curated list of unmissable 2026 events. Sources are authoritative and appear current for 2026. Coverage is strong for major events, though niche or local events in January may be less fully covered."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 10.949,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 8,
+                "quality_score": 8,
+                "usefulness_score": 8,
+                "coverage_score": 8,
+                "overall_score": 7.8,
+                "reasoning": "The results include January 2026 events (e.g., European Men's Handball Championship Jan 15\u2013Feb 1) and month-by-month calendars; sources include Olympics.com, The Guardian, and Wikipedia. This aligns with the query intent about major events and January highlights. Wikipedia is less authoritative; overall coverage and freshness are solid."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 5.723,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 7,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.2,
+                "reasoning": "The results largely match the intent (major sports events/highlights in January 2026): Olympics.com provides a month-by-month 2026 calendar with January items (high relevance), Wikipedia has a broad 2026-in-sports listing that includes January events (relevant but less focused), and The Guardian piece is a curated 2026 preview that likely includes January events and broader highlights. Freshness is good given two sources are dated Jan 2026 and Wikipedia is typically updated, though not guaranteed comprehensive or current for late schedule changes. Source quality is strong overall (Olympics.com and Wikipedia are authoritative for schedules; The Guardian is reputable journalism but more editorial). Usefulness is solid for building an answer, but only one result is explicitly structured for January and none are dedicated specifically to 'January 2026 highlights' across many sports. Coverage is moderate because only three results are returned, skewed toward broad year calendars and an Olympic-focused view, with limited sport-by-sport depth (e.g., no dedicated NFL/NBA/tennis-specific January 2026 pages in the set)."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 6.464,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.4,
+                "reasoning": "The results are highly relevant to 'major sports events' in 'January 2026', with two out of three snippets directly mentioning specific events for that month (e.g., European Men's Handball Championship, Winter X Games). The information is perfectly fresh as it pertains to future events in 2026. Sources like Wikipedia, The Guardian, and Olympics.com are authoritative and high quality. The results are useful for identifying key events. Coverage is good for specific events, but could potentially be broader or include 'highlights' more explicitly as requested by the query."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 10.73,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.4,
+                "reasoning": "The search results are highly relevant and useful, directly providing specific major sports events for January 2026 from authoritative sources like Wikipedia and Olympics.com (e.g., European Men's Handball Championship, Winter X Games). The quality score is slightly reduced because one result from The Guardian seems to be an incorrectly dated article, referencing events not taking place in 2026. Despite this, the other two results are excellent and provide a strong basis for answering the query."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "query": "breakthrough AI and technology developments 2026",
+      "providers": [
+        {
+          "provider": "Tavily",
+          "search_time": 0.739,
+          "num_results": 3,
+          "sources": [
+            "https://www.devdiscourse.com/article/technology/3786915-hclsoftware-tech-trends-2026-ai-autonomy-set-to-transform-the-self-driving-enterprise?amp",
+            "https://www.securityweek.com/cyber-insights-2026-quantum-computing-and-the-potential-synergy-with-advanced-ai/",
+            "https://www.consultancy.lat/news/1620/mauricio-torres-echenagucia-ibm-shares-ai-trends-to-watch-in-2026"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 3.531,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.4,
+                "reasoning": "The search results largely match the query intent, focusing on 2026 AI and technology developments, evident in the titles and snippets provided. They seem recent, considering future tech predictions, and are from reputable sources like Devdiscourse, SecurityWeek, and consultancy platforms, suggesting authority and insights from industry leaders. The results are quite useful for understanding upcoming tech trends around AI advancements, quantum computing, and AI-driven enterprise transformations. The coverage is broad, touching on autonomy, quantum synergy, and agentic AI workflows, but could include more diverse perspectives or additional tech domains for a fuller picture."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 4.253,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 9,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.6,
+                "reasoning": "The search results are highly relevant as they specifically address advancements in AI and technology expected in 2026. The sources used are reputable and provide authoritative insights on future trends, enhancing their quality. The information is fairly recent and aligned with the query context, making it useful for users looking for specific developments in AI and technology. Coverage is good, but could be improved by including a wider range of perspectives or more varied topics within the overarching theme."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 5.424,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.6,
+                "reasoning": "The search results are highly relevant to the query about breakthrough AI and technology developments in 2026, with each article specifically addressing AI trends, quantum computing, and technological shifts projected for that year. The sources are recent, authoritative, and cover a variety of aspects including enterprise autonomy, quantum-AI synergies, and infrastructure transformation. Coverage could be slightly broader with more perspectives, but overall, the results provide comprehensive and useful insights."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 18.946,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 7,
+                "quality_score": 6,
+                "usefulness_score": 6,
+                "coverage_score": 5,
+                "overall_score": 6.4,
+                "reasoning": "Results align with 2026 AI/tech developments and trends, including AI autonomy, AI\u2013quantum synergy, and IBM-perspective forecasts. Likely recent given 2026 focus, but dates aren\u2019t explicit. Source quality is mixed (vendor report via news site, reputable SecurityWeek, consultancy quoting IBM). Useful for trend insights but largely predictive, AI-centric, and lacks broader tech domains (e.g., biotech, energy, robotics), limiting coverage."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 11.979,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 7,
+                "usefulness_score": 8,
+                "coverage_score": 6,
+                "overall_score": 7.6,
+                "reasoning": "Results are highly relevant to \"breakthrough AI and technology developments 2026\" (9) \u2014 each item discusses 2026 AI/tech trends or breakthroughs. Freshness is strong (8) since the pieces focus on 2026 projections/current-year analysis. Quality is moderate-high (7): SecurityWeek and an IBM/consultancy piece are reputable; Devdiscourse is less authoritative. Usefulness is good (8) for a quick snapshot of predicted breakthroughs, but limited depth in the snippets. Coverage is moderate (6): the three results cover enterprise autonomy, quantum+AI, and IBM/observability perspectives but lack broader views (e.g., foundational model advances, regulation, cross-industry case studies). Overall score is the average of the metrics."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 6.758,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 6,
+                "quality_score": 6,
+                "usefulness_score": 6,
+                "coverage_score": 5,
+                "overall_score": 6.0,
+                "reasoning": "Results align with the query intent by highlighting 2026 AI/tech trends (autonomy, quantum-AI synergy, agentic workflows). Some sources vary in authority (SecurityWeek strong, others less so). Coverage touches several relevant angles but is not comprehensive."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 6.861,
+              "scores": {
+                "relevance_score": 6,
+                "freshness_score": 6,
+                "quality_score": 5,
+                "usefulness_score": 5,
+                "coverage_score": 4,
+                "overall_score": 5.2,
+                "reasoning": "The query asks for 'breakthrough AI and technology developments 2026,' implying a broad, evidence-based overview of major advances expected or occurring in 2026. The results are moderately relevant but skew toward enterprise/industry trend pieces and predictions rather than documented breakthroughs. Freshness appears fair (all framed around 2026), but they look like commentary/trend reports rather than primary research. Source quality is mixed: SecurityWeek is a known tech/security outlet but the piece reads like an opinion/exec quote; Devdiscourse often republishes PR-like content; consultancy.lat is not a top-tier authoritative research source. Usefulness is limited for 'breakthrough developments' because it lacks breadth, citations to major labs/academic work, and concrete breakthroughs. Coverage is narrow (enterprise autonomy/agentic AI, quantum+AI synergy, governance/infra trends) and misses other major tech areas (biotech, semiconductors, robotics, energy, space, fundamental AI research)."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 7.159,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 10,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.8,
+                "reasoning": "The search results are highly relevant, directly addressing 'AI and technology developments 2026' through multiple articles discussing trends for that specific year. They demonstrate excellent freshness as they are explicitly forward-looking to 2026. The sources are credible, featuring reports from companies like HCLSoftware and insights from IBM experts, reported by reputable tech and security publications. The results are very useful for answering the query, providing concrete examples of projected developments. Coverage is good, touching on AI autonomy, quantum computing synergy with AI, and AI infrastructure/governance, covering various aspects of the topic."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 11.673,
+              "scores": {
+                "relevance_score": 10,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 10,
+                "coverage_score": 9,
+                "overall_score": 9.4,
+                "reasoning": "The search results are exceptionally relevant, with all three titles explicitly mentioning AI/tech trends for the year 2026. The information is high-quality, citing reports and experts from major technology companies like HCLSoftware and IBM. The content is extremely useful for a RAG application, providing specific, forward-looking insights on AI autonomy, the synergy of quantum computing and AI, and the evolution of agentic workflows. The coverage is also excellent, touching on enterprise, infrastructure, and fundamental technological convergence."
+              }
+            }
+          ]
+        },
+        {
+          "provider": "Brave",
+          "search_time": 0.717,
+          "num_results": 3,
+          "sources": [
+            "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html",
+            "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026",
+            "https://www.trigyn.com/insights/ai-trends-2026-new-era-ai-advancements-and-breakthroughs"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 3.072,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.6,
+                "reasoning": "The search results are highly relevant as they address future AI and technology developments specifically for 2026. They are fresh, likely to be up-to-date given the forward-looking nature of the topic. The sources include InfoWorld and IBM, both of which are authoritative in the tech industry, while Trigyn offers additional insights. The usefulness of the results is high since they provide information on both general trends and specific technological advancements. Coverage is good, addressing different aspects like quantum computing, interoperability, and the evolution of AI systems, but could potentially be more comprehensive with additional subtopics or perspectives."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.175,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 9,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.6,
+                "reasoning": "The results closely match the query intent, focusing on AI and technology developments specifically in 2026. The information is fairly recent and addresses significant breakthroughs, indicating good freshness. The sources are authoritative (InfoWorld, IBM) and provide comprehensive insights. The content is useful for answering the query, with coverage addressing both specific breakthroughs and broader trends, though there could be more diverse perspectives on technology advancements."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 5.484,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.4,
+                "reasoning": "The results directly address breakthroughs in AI and technology developments expected in 2026, matching the query intent very well. The articles are from reputable sources like InfoWorld, IBM, and Trigyn, offering predictions and insights for 2026, which is recent and forward-looking. There is strong authority and coverage on topics such as quantum computing, AI agent interoperability, and transition to autonomous AI systems, providing comprehensive and useful information for someone interested in upcoming technology breakthroughs. Small deductions are due to the sources being forward-looking/predictive (not reporting events that have already occurred in 2026), and there could be even broader coverage of related technologies beyond AI and quantum computing."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 22.163,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 7,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.4,
+                "reasoning": "Results directly target 2026 AI and tech breakthroughs with credible sources like IBM and InfoWorld. Likely recent given the 2026 focus, though exact publish dates are not shown. Quality is solid but one source is an IT services blog. Useful for themes like agentic AI, self-verification, memory, and anticipated quantum advantage, but coverage skews toward AI and lacks broader non-AI tech depth, with only three results."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 11.264,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 7,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 7.8,
+                "reasoning": "All three results directly address AI/technology developments for 2026 (high relevance). They appear timely and focused on 2026 trends (good freshness). Source quality is mixed: IBM and InfoWorld are authoritative while Trigyn is less established (solid but not top-tier overall). The results are useful for a quick view of major expected breakthroughs but are limited in number and depth across policy, hardware, and safety topics (coverage is good but not comprehensive). Overall these results provide a strong starting point but additional sources would improve breadth and depth."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 9.388,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 6,
+                "quality_score": 6,
+                "usefulness_score": 7,
+                "coverage_score": 7,
+                "overall_score": 6.8,
+                "reasoning": "Results are generally relevant to 2026 AI breakthroughs and trends. One source is IBM (credible), others are tech media and a marketing site. Freshness varies; predictions are current but not all sources may reflect the latest developments. Coverage includes breakthroughs, trends, and autonomous systems, but depth and empirical validation are limited."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 6.488,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 6,
+                "quality_score": 7,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 6.8,
+                "reasoning": "Results are largely on-intent for 'breakthrough AI and technology developments 2026' (InfoWorld and IBM explicitly discuss 2026 trends/breakthroughs; Trigyn also targets 2026 AI trends). Freshness is moderate because the content appears predictive rather than reporting confirmed 2026 developments, and no clear publication dates are provided in the snippets. Source quality is mixed: IBM and InfoWorld are relatively authoritative, while Trigyn is less established for independent analysis. Usefulness is decent for forming an overview of expected 2026 breakthroughs (agents, memory, verification; quantum advantage claims), but limited for evidence-backed 'developments' and lacks primary research links. Coverage is fair but narrow with only three results, skewed toward AI trends/predictions and light on broader 2026 tech developments beyond quantum and AI systems."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 5.321,
+              "scores": {
+                "relevance_score": 10,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 10,
+                "coverage_score": 9,
+                "overall_score": 9.6,
+                "reasoning": "The results are highly relevant, directly addressing 'breakthrough AI and technology developments 2026'. The information is fresh as it specifically discusses predictions for 2026. Sources like InfoWorld and IBM are authoritative. The snippets provide specific, useful examples (agent interoperability, quantum computing, autonomous systems). Coverage is good, touching on different AI facets and a key non-AI technology."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 9.316,
+              "scores": {
+                "relevance_score": 10,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 10,
+                "coverage_score": 9,
+                "overall_score": 9.6,
+                "reasoning": "The search results are exceptionally relevant, with all three titles and snippets directly addressing AI and technology breakthroughs specifically for the year 2026. The sources are high-quality, including reputable publications like InfoWorld and industry leaders like IBM. The snippets are highly useful, providing concrete examples of predicted breakthroughs (quantum computing, AI agents, autonomous systems) that would be perfect for a RAG-based answer. The coverage is also strong, touching upon different aspects of AI and core technology advancements."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "business",
+      "query": "Tesla vs BYD electric vehicle market performance 2025 2026",
+      "providers": [
+        {
+          "provider": "Tavily",
+          "search_time": 0.816,
+          "num_results": 3,
+          "sources": [
+            "https://www.wsj.com/business/autos/tesla-ends-2025-with-lower-sales-in-europe-while-chinas-byd-powers-on-b12ac42c?gaa_at=eafs&gaa_n=AWEtsqe4qW8EYZVQNpZMp60ldtSFpI_N0kwBw-Cy3geFtEGvhrrZ3bE5cwCP&gaa_ts=69787a8a&gaa_sig=EyoOGCdcdliZ1c1rC72xFqv1caP0oJYawm2O_Gz-8rtGeQHz_IZ1T1GHSfOnVTzsr4adN1kjaD-DgTbiW2w5ZA%3D%3D",
+            "https://www.wsj.com/business/autos/tesla-tsla-q4-earnings-report-2025-191b2aab?gaa_at=eafs&gaa_n=AWEtsqeMnsq1LwMkCjSEjjGZ6puzEBQZJQpD7I8-_tq9hz5vSIowbOdrMowE&gaa_ts=697a8855&gaa_sig=AkK8ZjSKguaVV8-FvibRWrTwmYheTH1yZP7VN2RnzFbwi1IpL7NxBqaQMgbUdA-kuVHvO59XR-CuluQy6_uTqg%3D%3D",
+            "https://www.autonews.com/byd/an-byd-2026-global-expansion-in-europe-canada-ev-tariffs-0128/"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 4.198,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.2,
+                "reasoning": "1. Relevance: The headlines and snippets directly pertain to the performance of Tesla and BYD in the given years, particularly focusing on sales and market presence. 2. Freshness: The articles are up to date, covering events from late 2025 and early 2026. 3. Quality: The sources are authoritative\u2014Wall Street Journal and Automotive News are respected outlets. 4. Usefulness: The search results provide useful details about sales, financial performance, and strategic moves of the companies. 5. Coverage: While they address sales and expansion activities, they could offer more on comprehensive market analysis or comparison of market share and consumer trends."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.891,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.2,
+                "reasoning": "The results are highly relevant to the query as they directly compare Tesla and BYD's market performance in the relevant time frame (2025-2026). The freshness score is high due to the most recent articles covering developments in early 2026. The sources are authoritative publications like The Wall Street Journal and Automotive News, contributing to a strong quality score. The usefulness score reflects that the articles provide valuable insights into sales trends and market expansion, though coverage could include more direct comparative analysis between the two companies."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 3.281,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.4,
+                "reasoning": "The search results are highly relevant, directly addressing Tesla and BYD's electric vehicle market performance for 2025 and 2026. The sources are fresh, with articles dated late 2025 and early 2026, ensuring up-to-date information. The Wall Street Journal and Automotive News are authoritative sources, lending high quality to the insights. The results offer concrete details on sales performance, market expansion, and relative standing, making them useful for answering the query. However, coverage could be improved by including more comprehensive global data, financial analysis, or direct head-to-head comparisons beyond Europe and Canada."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 16.303,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.4,
+                "reasoning": "Strong topical match with 2025-2026 Tesla vs BYD performance, including Europe sales and Tesla Q4 2025 results plus BYD 2026 expansion. Sources (WSJ, Automotive News) are authoritative and recent. However, coverage skews to Europe and company-specific news rather than comprehensive head-to-head global market metrics across both years, with limited quantitative comparisons and potential paywall constraints."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 19.521,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.4,
+                "reasoning": "Results are highly relevant to a query comparing Tesla and BYD market performance in 2025\u20132026, citing timely reporting from late 2025 and Jan 2026. Sources (Wall Street Journal, Automotive News) are authoritative, so quality is high. Usefulness is strong for a high-level comparison (sales trends, regional performance, expansion plans) but limited by few items and lack of comprehensive global metrics, detailed unit/market-share tables, or manufacturer financial modeling. Coverage is decent on Europe and expansion themes but incomplete for full global performance breakdowns and quantitative comparisons."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 15.033,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 8,
+                "quality_score": 9,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 8.6,
+                "reasoning": "Assessment notes: Results closely address Tesla vs BYD market performance in 2025-2026, including Europe and global sales trends (relevance 9). Most items discuss 2025 outcomes and 2026 plans, though one piece is about BYD expansion rather than performance per se (freshness better for 2026) (freshness 8). Sources (WSJ and Automotive News) are authoritative and provide solid coverage of market developments (quality 9). They would be generally useful for answering the query, offering data and insights on sales trends and regional shifts (usefulness 9). Coverage spans both company performance and strategic expansion, giving a broad view but not exhaustive (coverage 8)."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 5.398,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 8,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 5,
+                "overall_score": 7.2,
+                "reasoning": "Results are largely on-topic for comparing Tesla vs BYD market performance in 2025\u20132026: two WSJ articles address Tesla sales/profits and competitive position vs BYD, and an Automotive News piece discusses BYD\u2019s 2026 overseas expansion (a key driver of market performance). Freshness is good given explicit 2025 and Jan 2026 coverage. Source quality is high (WSJ, Automotive News), though WSJ may be paywalled which can reduce practical utility. Usefulness is decent for narrative comparison and directional performance, but the set is small and may lack hard global market-share/volume tables and direct head-to-head metrics across regions. Coverage is limited: little on China domestic sales specifics, global market share, pricing/margins comparisons, regulatory/tariff impacts in depth, and no independent market research sources (e.g., IEA, BloombergNEF, SNE, Counterpoint) for comprehensive benchmarking."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 6.28,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 9,
+                "coverage_score": 9,
+                "overall_score": 9.2,
+                "reasoning": "The search results are highly relevant, directly addressing Tesla vs. BYD market performance for both 2025 and 2026. The freshness is exceptional, with sources explicitly mentioning or being published in 2025/2026. The Wall Street Journal and Automotive News are authoritative sources, ensuring high quality. The results are very useful, providing a direct comparison for 2025, Tesla's 2025 performance specifics, and BYD's 2026 expansion plans, offering good coverage across the query's scope."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 16.244,
+              "scores": {
+                "relevance_score": 3,
+                "freshness_score": 0,
+                "quality_score": 1,
+                "usefulness_score": 0,
+                "coverage_score": 5,
+                "overall_score": 1.8,
+                "reasoning": "The query asks for performance in future years (2025, 2026), implying it seeks forecasts or projections. The search results return articles that appear to be dated in 2025 and 2026, treating these future years as if they have already occurred. This content is fictional and not grounded in reality. While the topics mentioned (Tesla sales, BYD expansion) are superficially relevant, the information itself is fabricated. This makes the results extremely low quality and completely useless for a RAG application, as they would generate factually incorrect and misleading answers. The sources cited (WSJ, Automotive News) are typically authoritative, but the content provided is not real, making it actively harmful."
+              }
+            }
+          ]
+        },
+        {
+          "provider": "Brave",
+          "search_time": 1.024,
+          "num_results": 3,
+          "sources": [
+            "https://electrek.co/2026/01/02/byd-crushes-tesla-all-electric-sales-for-2025-secures-global-bev-crown/",
+            "https://www.bbc.com/news/articles/cj9rjwpvmpzo",
+            "https://www.bloomberg.com/news/articles/2026-01-01/byd-sells-4-6-million-vehicles-in-2025-meets-revised-sales-goal"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 3.727,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.0,
+                "reasoning": "The search results are quite relevant to the query regarding Tesla vs BYD electric vehicle market performance for 2025 and 2026, as they discuss sales figures and market positioning for the year 2025, which is directly related to the query. The sources are recent, from early 2026, which is very current. They come from reputable publications (Electrek, BBC, Bloomberg), lending authority and quality to the information provided. The information seems useful as it provides quantitative data on sales and market leadership, addressing the core intent of the query. However, coverage of the topic is slightly limited as the data for 2026 is not addressed and the focus is primarily on overall sales without deeper insights into other performance metrics or context needed for a comprehensive analysis. Thus, coverage could be improved by including more diverse information and projections for 2026."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.088,
+              "scores": {
+                "relevance_score": 10,
+                "freshness_score": 10,
+                "quality_score": 10,
+                "usefulness_score": 10,
+                "coverage_score": 9,
+                "overall_score": 9.8,
+                "reasoning": "The results are highly relevant to the query about Tesla vs BYD market performance for 2025 and 2026, providing specific sales figures and insights into market trends. The information is recent, as it pertains to the recent sales figures for the year 2025. The sources are authoritative, coming from established publications in the automotive and business industry. While the coverage is comprehensive regarding sales data, it could benefit from additional context on market strategies or future projections."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 2.244,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 9,
+                "coverage_score": 8,
+                "overall_score": 9.0,
+                "reasoning": "The results are highly relevant, directly addressing the comparison between Tesla and BYD's electric vehicle market performance for 2025 and touching on projections or actuals into 2026. The information is extremely fresh, with publication dates referencing January 2026 and presenting 2025 sales data. The sources (Electrek, BBC, Bloomberg) are reputable in automotive and business news coverage, adding quality. Usefulness is strong due to specific sales data and context about market leadership shifts. Coverage is very good, providing volume figures, market leadership, and context, though more detailed financial or regional breakdowns would further enhance it."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 19.064,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.6,
+                "reasoning": "Highly relevant top-line comparisons of Tesla vs BYD for 2025 from reputable sources (BBC, Bloomberg, Electrek) and very recent (Jan 2026). However, limited detail on 2026 performance and broader metrics (market share, profitability, regional breakdown), so coverage and usefulness are constrained beyond sales figures."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 11.472,
+              "scores": {
+                "relevance_score": 10,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 6,
+                "overall_score": 8.6,
+                "reasoning": "All three results directly address Tesla vs BYD sales and market performance for 2025 (high relevance and very recent coverage). Sources include high-quality outlets (BBC, Bloomberg) plus a specialized outlet (Electrek), supporting a high quality score. The results are useful for comparing 2025 delivery/sales figures and headline market position, but they focus mainly on sales totals and headlines and lack broader metrics (regional market share breakdowns, profitability, production capacity, and detailed 2026 forecasts), so coverage and usefulness are somewhat limited."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 13.664,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 9,
+                "coverage_score": 7,
+                "overall_score": 8.4,
+                "reasoning": "Results are highly relevant to the Tesla vs BYD market performance in 2025, with strong data on BYD's leadership and Tesla's deliveries. They are timely (early 2026) and come from credible outlets (BBC, Bloomberg) plus Electrek. They are useful for answering the query, though they mainly cover 2025 outcomes and do not extensively address 2026 forecasts or broader market analysis, limiting coverage of the full requested scope."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 5.079,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 7,
+                "usefulness_score": 7,
+                "coverage_score": 4,
+                "overall_score": 7.0,
+                "reasoning": "All three results directly address Tesla vs BYD market performance with 2025 sales/delivery figures and positioning (who leads in BEV/EV sales), matching the core intent well. They are very recent (Jan 2026) and summarize full-year 2025 outcomes, which is timely for a 2025\u20132026 comparison. Source quality is mixed: BBC and Bloomberg are highly authoritative (Bloomberg may be paywalled), while Electrek is a secondary tech outlet with potential bias/less rigorous framing. Usefulness is good for establishing 2025 performance and headline comparisons, but limited for 2026 performance/projections, profitability, regional breakdowns, market share by segment, and methodology (BEV vs PHEV vs total). Coverage is narrow because all results focus mainly on annual sales leadership rather than broader market-performance dimensions (revenue/margins, stock performance, capacity, policy impacts, US/EU/China splits, product pipeline) and provide little on 2026 beyond outlook mentions."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 6.706,
+              "scores": {
+                "relevance_score": 9,
+                "freshness_score": 10,
+                "quality_score": 10,
+                "usefulness_score": 10,
+                "coverage_score": 9,
+                "overall_score": 9.6,
+                "reasoning": "The results are highly relevant, directly addressing the Tesla vs BYD performance for 2025 with specific sales figures and who 'won'. The information is exceptionally fresh, being published in early 2026 for the full year 2025, which is as current as possible. The sources (Electrek, BBC, Bloomberg) are authoritative and of high quality, making the information very useful for answering the query. Coverage is strong for 2025 market performance, though '2026' performance data isn't present (as expected so early in the year)."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 14.368,
+              "scores": {
+                "relevance_score": 0,
+                "freshness_score": 0,
+                "quality_score": 0,
+                "usefulness_score": 0,
+                "coverage_score": 0,
+                "overall_score": 0.0,
+                "reasoning": "The search results are entirely fabricated, presenting future events (sales in 2025) as historical facts with future-dated sources. This is a critical failure, as the information is not only non-existent and factually impossible but also dangerously misleading for a RAG application. The query intent, which was for forecasts or projections, was completely missed. Instead, the search provider generated hallucinatory content that is worse than useless."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "query": "recent scientific discoveries and breakthroughs 2026",
+      "providers": [
+        {
+          "provider": "Tavily",
+          "search_time": 0.819,
+          "num_results": 3,
+          "sources": [
+            "https://astrobiology.com/2026/01/exominer-nasa-ai-model-that-found-370-exoplanets-now-digs-into-tess-data.html",
+            "https://www.news-medical.net/news/20260123/Resurrected-ancient-enzyme-reveals-early-life-processes-and-astrobiological-biosignatures.aspx",
+            "https://science.nasa.gov/researchers/solicitations/roses-2025/amendment-42-several-changes-to-f-10-prism/"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 6.338,
+              "scores": {
+                "relevance_score": 6,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 5,
+                "overall_score": 7.0,
+                "reasoning": "The provided search results have varying levels of relevance to the query 'recent scientific discoveries and breakthroughs 2026'. The first result about ExoMiner++ is relevant as it details a 2026 discovery within the field of astronomy. The second result on resurrected ancient enzymes, while scientifically significant for early life research, partially matches the query due to its astrobiological context. The third result, focused on NASA's amendment and lunar phenomena, lacks direct relevance to 'scientific discoveries'. All articles are from 2026, giving them high freshness. Sources are authoritative but the coverage doesn't encompass a wide range of breakthroughs across multiple scientific disciplines, slightly limiting the usefulness and coverage scores. Overall, the search results provide meaningful information but are not comprehensive across all recent scientific discoveries."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 1.839,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 8,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.2,
+                "reasoning": "The search results include relevant scientific discoveries from 2026, such as advancements in astrobiology and enzymatic research. The information is fairly recent and authoritative, though broader coverage of various scientific fields could be improved for a comprehensive understanding of recent breakthroughs."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 2.327,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 10,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 7,
+                "overall_score": 8.0,
+                "reasoning": "The results are relevant and fresh, with two scientific breakthroughs from 2026 in exoplanet discovery and resurrecting ancient enzymes, both from authoritative sources (NASA, University of Wisconsin-Madison). While quality and usefulness are high, coverage could be broader: the results touch on different fields but don't provide a comprehensive overview of all recent 2026 breakthroughs."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 19.843,
+              "scores": {
+                "relevance_score": 5,
+                "freshness_score": 8,
+                "quality_score": 6,
+                "usefulness_score": 4,
+                "coverage_score": 2,
+                "overall_score": 5.0,
+                "reasoning": "Two of three results are about 2026 research (exoplanet AI model, ancient enzyme study), matching the query only partially. Freshness is good (Jan 2026 and very recent posts). Source quality is mixed: Astrobiology.com (press release), News-Medical (aggregated research news), and NASA.gov (authoritative but not directly about discoveries). Usefulness is limited because there\u2019s no comprehensive roundup or synthesis. Coverage is poor, focusing mainly on astro/biochem and missing other fields."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 11.536,
+              "scores": {
+                "relevance_score": 6,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 5,
+                "coverage_score": 4,
+                "overall_score": 6.4,
+                "reasoning": "Two of the three results are recent 2026 science stories (exoplanet AI, resurrected ancient enzyme) that match the query intent, but the set is narrow and misses many major disciplines and breakthrough summaries. Sources are generally credible (NASA, News-Medical, Astrobiology), so freshness and quality are high, but usefulness and coverage are limited for a broad query about 2026 scientific discoveries because the results focus on specific topics and include an administrative NASA page that is less relevant."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 31.078,
+              "scores": {
+                "relevance_score": 6,
+                "freshness_score": 9,
+                "quality_score": 7,
+                "usefulness_score": 6.7,
+                "coverage_score": 6.3,
+                "overall_score": 7.0,
+                "reasoning": "Averaged across the three results: relevance ~6, freshness 9, quality ~7, usefulness ~6.7, coverage ~6.3. Two results describe recent discoveries from credible sources (exoplanets and ancient enzyme) making them useful and relevant; one result is a NASA administrative update about PRISM which is less about discoveries, lowering usefulness and relevance. Freshness is high for all entries (early 2026)."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 5.375,
+              "scores": {
+                "relevance_score": 4,
+                "freshness_score": 8,
+                "quality_score": 6,
+                "usefulness_score": 4,
+                "coverage_score": 3,
+                "overall_score": 5.0,
+                "reasoning": "The query asks broadly for recent (2026) scientific discoveries and breakthroughs across domains. Two results are actually 2026 and describe specific science advances (exoplanet detection via NASA AI; ancient enzyme reconstruction), so freshness is strong. However, the third result is an administrative NASA solicitation/amendment page and not a scientific breakthrough, reducing relevance and usefulness. Source quality is mixed: NASA.gov is highly authoritative but not on-topic here; News-Medical is a secondary news site; Astrobiology.com is niche and often press-release style. Overall, the set is too narrow (mostly space/astrobiology) with limited breadth across major 2026 breakthroughs (medicine, energy, AI, materials, climate, etc.), so coverage is weak and usefulness for a comprehensive answer is limited."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 6.576,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 10,
+                "quality_score": 9,
+                "usefulness_score": 8,
+                "coverage_score": 5,
+                "overall_score": 8.0,
+                "reasoning": "The search results are highly relevant and fresh, explicitly mentioning '2026' within their titles or snippets, directly matching the query's temporal requirement. Sources like NASA Science and News-Medical are authoritative, ensuring good quality. The individual articles provide useful examples of scientific news and potential breakthroughs for the specified year. However, with only three distinct results, the coverage for a broad query like 'recent scientific discoveries and breakthroughs' is limited and doesn't offer a comprehensive overview across various scientific fields."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 17.896,
+              "scores": {
+                "relevance_score": 1,
+                "freshness_score": 0,
+                "quality_score": 5,
+                "usefulness_score": 0,
+                "coverage_score": 1,
+                "overall_score": 1.4,
+                "reasoning": "The query asks for discoveries from a future year (2026), which is impossible to answer with factual events. The search engine has misinterpreted this and returned articles that are themselves dated in 2026. This information is factually incorrect as these events have not happened, making the results completely useless and harmful for a RAG application, as it would lead to generating misinformation. While the sources (e.g., NASA) are generally high-quality, the content is invalid. Coverage is also very poor, focusing only on astrobiology and astronomy."
+              }
+            }
+          ]
+        },
+        {
+          "provider": "Brave",
+          "search_time": 0.75,
+          "num_results": 3,
+          "sources": [
+            "https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch",
+            "https://www.theguardian.com/commentisfree/2026/jan/05/nine-scientific-breakthroughs-id-like-to-see-in-2026-from-earworms-to-procrastination",
+            "https://www.forbes.com/sites/charlottekiang/2026/01/01/7-space-science-and-technology-breakthroughs-to-watch-for-in-2026/"
+          ],
+          "evaluations": [
+            {
+              "model": "GPT-4o",
+              "eval_time": 4.601,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 7,
+                "overall_score": 7.8,
+                "reasoning": "The results are highly relevant as they all address scientific discoveries and breakthroughs anticipated or desired for 2026. The content seems fresh and timely, as it discusses future breakthroughs and trends expected for 2026. The sources (CAS, The Guardian, Forbes) are reputable in their respective fields, adding authority and quality to the results. However, the usefulness is slightly lower since some results speculate on desired breakthroughs rather than confirmed scientific findings, impacting the coverage score a bit. Overall, the coverage of different scientific fields is good but not exhaustive, as it touches on medical, biological, and astronomical breakthroughs but misses other areas like physics or technology."
+              }
+            },
+            {
+              "model": "GPT-4o Mini",
+              "eval_time": 3.07,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.6,
+                "reasoning": "The results are relevant as they focus on scientific breakthroughs in 2026. The freshness is high since the content pertains to the upcoming year. The sources are reputable, providing good quality information. However, while they are useful, they could delve deeper into specific discoveries rather than speculative possibilities, resulting in a slightly lower usefulness score. Coverage is moderate as it addresses space science and proposed breakthroughs but lacks broader scientific categories."
+              }
+            },
+            {
+              "model": "GPT-4.1",
+              "eval_time": 3.391,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 8,
+                "coverage_score": 7,
+                "overall_score": 8.0,
+                "reasoning": "The results are highly relevant and up-to-date, specifically addressing scientific discoveries and breakthroughs projected for or occurring around 2026. The sources include authoritative and reputable sites (CAS, Forbes, The Guardian), providing a mix of concrete scientific advances (such as opioid-free pain relief, lunar missions) and broader trends or speculative breakthroughs. Coverage is fairly broad, spanning medicine, biology, and space science, though not completely exhaustive for all scientific fields. Usefulness is strong due to credible, targeted, and futuristic content. Minor deductions reflect limited detail in some snippets and speculative content in at least one result."
+              }
+            },
+            {
+              "model": "GPT-5",
+              "eval_time": 16.983,
+              "scores": {
+                "relevance_score": 5,
+                "freshness_score": 9,
+                "quality_score": 6,
+                "usefulness_score": 5,
+                "coverage_score": 4,
+                "overall_score": 5.8,
+                "reasoning": "Results are timely and reference 2026, but two are predictive (CAS trends, Forbes space) and one is an opinion wishlist (Guardian), so they don\u2019t directly list recent 2026 discoveries. CAS is authoritative; Forbes contributor and Guardian op-ed are less so. Usefulness is moderate due to limited actionable detail and focus; coverage is narrow (trends and space) rather than broad, cross-disciplinary breakthroughs."
+              }
+            },
+            {
+              "model": "GPT-5 Mini",
+              "eval_time": 9.165,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 9,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 6,
+                "overall_score": 7.4,
+                "reasoning": "All three results are timely (early-2026) and from reputable outlets (CAS, The Guardian, Forbes), so freshness and quality are high. They are relevant to 'breakthroughs 2026' but skew toward forward-looking trends, commentary, and selected domains (space, chemistry/biotech, opinion pieces) rather than an exhaustive list of recent empirical discoveries, so relevance and usefulness are good but not perfect. Coverage is limited across disciplines and lacks primary research summaries, hence a lower coverage score."
+              }
+            },
+            {
+              "model": "GPT-5 Nano",
+              "eval_time": 17.055,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 7,
+                "quality_score": 8,
+                "usefulness_score": 7,
+                "coverage_score": 7,
+                "overall_score": 7.4,
+                "reasoning": "Results directly reference 2026 breakthroughs or trends, including space and general science topics. The Guardian and Forbes provide timely, reputable lists; CAS adds credible insights but the page date is unclear, which slightly lowers freshness certainty. Overall, diverse, credible sources with broad coverage, though some items are speculative rather than reporting on actual discoveries."
+              }
+            },
+            {
+              "model": "GPT-5.2",
+              "eval_time": 6.145,
+              "scores": {
+                "relevance_score": 7,
+                "freshness_score": 6,
+                "quality_score": 6,
+                "usefulness_score": 6,
+                "coverage_score": 5,
+                "overall_score": 6.0,
+                "reasoning": "Query asks for recent scientific discoveries/breakthroughs in 2026. Results are mostly forward-looking \u201cto watch in 2026\u201d rather than reporting confirmed discoveries, so relevance is moderate. Freshness is decent (early 2026 pages) but one result references a 2025 drug approval, suggesting trend speculation. Source quality is mixed: CAS is credible/industry-oriented, Forbes is mainstream business journalism, and The Guardian piece is opinion/commentary, lowering overall authority for scientific claims. Usefulness is moderate for brainstorming or trend summaries but less effective for a grounded list of 2026 breakthroughs with primary citations. Coverage is limited with only three results and skewed toward predictions/trends (plus space), not broad across major scientific domains."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Flash",
+              "eval_time": 8.165,
+              "scores": {
+                "relevance_score": 8,
+                "freshness_score": 9,
+                "quality_score": 7,
+                "usefulness_score": 7,
+                "coverage_score": 7,
+                "overall_score": 7.6,
+                "reasoning": "The results are highly relevant, as they specifically address '2026 scientific breakthroughs,' primarily through predictions which is appropriate for a future year. Freshness is excellent, with all sources either directly dated for or focused on 2026. Quality is good overall, with reputable sources like CAS and Forbes, although one result from The Guardian is an opinion piece. Usefulness is solid for gaining insights into anticipated discoveries, though one result being a 'wish list' slightly reduces its practical value for 'actual' discoveries. Coverage touches on a few distinct areas such as medicine and space, providing a decent, though not exhaustive, overview."
+              }
+            },
+            {
+              "model": "Gemini 2.5 Pro",
+              "eval_time": 13.789,
+              "scores": {
+                "relevance_score": 2,
+                "freshness_score": 0,
+                "quality_score": 9,
+                "usefulness_score": 1,
+                "coverage_score": 7,
+                "overall_score": 3.8,
+                "reasoning": "The query asks for factual discoveries from 2026, which is in the future. The search results correctly interpret the keywords but return predictive or speculative articles about what might happen in 2026 ('trends to watch', 'breakthroughs I'd like to see'). While the sources are high-quality (CAS, The Guardian, Forbes) and cover different scientific fields, the results are not relevant or useful for answering the user's implicit intent for factual reports. They fail the core task because the requested information does not exist yet, making the results misleading for a RAG application seeking facts."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "verdict": {
+    "overall_winner": {
+      "provider": "Brave",
+      "reasoning": "Brave consistently provides high-quality results with low variability across different models and categories, showing strength in reliability and comprehensive coverage."
+    },
+    "speed_winner": {
+      "provider": "Tavily",
+      "avg_search_time": 0.8152,
+      "reasoning": "Tavily consistently records lower average search times across all queries, suggesting a faster search processing capability."
+    },
+    "quality_winner": {
+      "provider": "Brave",
+      "avg_overall_score": 8.28,
+      "reasoning": "Brave scores the highest overall in terms of evaluated quality, demonstrating consistent high relevance, usefulness, and quality across multiple queries."
+    },
+    "freshness_winner": {
+      "provider": "Brave",
+      "avg_freshness_score": 8.72,
+      "reasoning": "Brave's results consistently reflect current and future-oriented content, essential for queries requiring up-to-date data or predictions."
+    },
+    "category_recommendations": {
+      "geopolitics": "Brave",
+      "sports": "Brave",
+      "tech": "Brave",
+      "business": "Brave",
+      "science": "Brave"
+    },
+    "provider_rankings": [
+      {
+        "rank": 1,
+        "provider": "Brave",
+        "total_score": 8.28
+      },
+      {
+        "rank": 2,
+        "provider": "Tavily",
+        "total_score": 6.82
+      }
+    ],
+    "key_findings": [
+      "Brave outperforms Tavily in quality, stability, and coverage of search results in every tested category.",
+      "Brave's search results have higher consistency and less variation across different models.",
+      "Tavily offers faster search times but at the cost of lower content comprehensiveness and reliability."
+    ],
+    "final_recommendation": "For applications where the quality and freshness of search results are critical, Brave is the recommended provider across all categories due to its superior performance in delivering comprehensive and reliable information. Tavily is suitable when speed is the priority, notwithstanding the trade-off in result quality."
+  }
+}

@@ -1,0 +1,98 @@
+{
+    "raw_data": [
+        {
+            "category": "geopolitics",
+            "context": "Nearly 75% of CEOs are either localizing or have localized some part of their production within the country of sale, according to the September edition of the EY-Parthenon CEO Outlook. Just over half are reorganizing supply chains to serve a particular regional bloc. These strategic shifts demonstrate how geopolitics is fundamentally changing the global operating environment. We expect geopolitical volatility to persist in 2026. Geopolitical volatility and uncertainty will persist in 2026. There are three geostrategic actions to build resilience and set strategy. Learn more. The shifting global order and internal political divisions pose challenges to Europe\u2019s national security and economic competitiveness. Regional and global actors will recalibrate their positions in the region, heightening economic competition. Each of the developments explored in the 2026 Geostrategic Outlook will impact organizations in unique ways and will necessitate specific geostrategic actions to capitalize on the opportunities they present while also mitigating the risks they pose. EY-Parthenon Global Client Insight and Research Leader and EY-Parthenon Global Geostrategic Business Group Leader ... The EY-Parthenon 2026 Geostrategic Outlook examines how geopolitics will create opportunities and challenges in the year ahead.",
+            "benchmarks": [
+                {
+                    "model": "GPT-5.2 (Flagship)",
+                    "latency": 2.935,
+                    "summary": "Nearly 75% of CEOs have localized parts of production and over half are reorganizing supply chains around regional blocs, reflecting how geopolitics is reshaping the global business environment. EY-Parthenon expects geopolitical volatility to persist through 2026, with Europe facing added security and competitiveness pressures, and urges organizations to take targeted geostrategic actions to build resilience and capture opportunities while mitigating risks."
+                },
+                {
+                    "model": "GPT-4.1 Mini",
+                    "latency": 1.576,
+                    "summary": "Nearly 75% of CEOs are localizing production within their sales countries, and over half are reorganizing supply chains regionally, reflecting how geopolitics is reshaping global business strategies. The EY-Parthenon 2026 Geostrategic Outlook highlights ongoing geopolitical volatility, urging organizations to adopt specific geostrategic actions to navigate risks and seize emerging opportunities."
+                },
+                {
+                    "model": "Gemini 3 Pro",
+                    "latency": 10.181,
+                    "summary": "According to the EY-Parthenon CEO Outlook, nearly 75% of CEOs are localizing production and restructuring supply chains in response to a global environment fundamentally reshaped by geopolitics. With uncertainty expected to persist into 2026, the Geostrategic Outlook outlines specific actions organizations must take to build resilience against these risks and capitalize on emerging opportunities."
+                },
+                {
+                    "model": "Gemini 3 Flash",
+                    "latency": 3.579,
+                    "summary": "Driven by persistent geopolitical volatility, the majority of CEOs are localizing production and reorganizing supply chains to adapt to a shifting global order. The EY-Parthenon 2026 Geostrategic Outlook emphasizes that organizations must implement specific strategic actions to navigate these economic challenges while capitalizing on emerging opportunities."
+                },
+                {
+                    "model": "Gemini 2.5 Flash (Legacy Stable)",
+                    "latency": 1.596,
+                    "summary": "Geopolitics is fundamentally reshaping the global operating environment, with nearly 75% of CEOs localizing production and over half reorganizing supply chains regionally. This geopolitical volatility is expected to persist through 2026, creating both challenges and opportunities that will necessitate specific geostrategic actions for organizations."
+                }
+            ]
+        },
+        {
+            "category": "sports",
+            "context": "Ellie Kildunne starred in England\u2019s triumph at the Women\u2019s Rugby World Cup and will hope to continue her form in 2026. Photograph: Tom Jenkins/The Guardian \u00b7 Milano Cortina is the host location for the 25th edition of these Games and, specifically, means 116 events in eight sports taking place at sites across Lombardy and north-east Italy during 19 days of competition, with Ski mountaineering making its debut on the Olympic programme. For a 50th consecutive year, snooker\u2019s premier competition takes place at the Crucible. As ever, the world\u2019s top-16 players as they stand after the 2026 Tour Championship will be seeded and joined by a further 16 players from the qualifying rounds, which take place at the English Institute of Sport, also in Sheffield, earlier in April. Athletics and para-athletics, swimming and para-swimming, track cycling and para-track cycling, netball, weightlifting and para-powerlifting, boxing, judo, bowls and para-bowls, and 3x3 basketball and 3x3 wheelchair basketball are the sports that made the cut. ... The 3x3 wheelchair basketball will make an appearance at the 2026 Commonwealth Games in Glasgow. Recent years, though, have seen an alarming drop-off in spectators and this year\u2019s running of the world\u2019s most famous Classic will be the first to benefit from a five-year, \u00a36m investment to tempt the punters back. Big upgrades to the spectator experience are promised, but unlike most other major sporting events it will, as always, still be possible to turn up and watch for free.",
+            "benchmarks": [
+                {
+                    "model": "GPT-5.2 (Flagship)",
+                    "latency": 3.268,
+                    "summary": "The context highlights several major upcoming sporting events, including Ellie Kildunne\u2019s role in England\u2019s Women\u2019s Rugby World Cup triumph and hopes for continued form in 2026, alongside details of the 2026 Milano Cortina Winter Olympics featuring 116 events across eight sports with ski mountaineering debuting. It also notes the Crucible hosting snooker\u2019s premier tournament for the 50th straight year, the sports lineup for the 2026 Commonwealth Games in Glasgow (including 3x3 wheelchair basketball), and efforts to revive spectator attendance at a famous Classic via a five-year \u00a36m investment while keeping free viewing available."
+                },
+                {
+                    "model": "GPT-4.1 Mini",
+                    "latency": 2.244,
+                    "summary": "Ellie Kildunne played a key role in England\u2019s victory at the Women\u2019s Rugby World Cup and aims to maintain her performance through 2026. The 2026 sporting calendar features major events such as the Milano Cortina Winter Games with 116 events across eight sports including new Olympic debut ski mountaineering, the 50th consecutive Crucible snooker championship, and the inclusion of 3x3 wheelchair basketball at the Commonwealth Games, alongside initiatives to boost spectator engagement in traditional events."
+                },
+                {
+                    "model": "Gemini 3 Pro",
+                    "latency": 11.502,
+                    "summary": "The 2026 sporting calendar features major competitions including the Winter Olympics in Milano Cortina, the Commonwealth Games in Glasgow, and the 50th consecutive year of world championship snooker at the Crucible. Highlights across these events include the debut of sports such as ski mountaineering and 3x3 wheelchair basketball, alongside significant investment to revitalize spectator interest in a famous historic Classic."
+                },
+                {
+                    "model": "Gemini 3 Flash",
+                    "latency": 3.95,
+                    "summary": "The 2026 sporting calendar features major international events including the Milano Cortina Winter Olympics, the Commonwealth Games in Glasgow, and the landmark 50th consecutive Snooker World Championship. Additionally, the year highlights England\u2019s rugby ambitions and a multi-million-pound investment to revitalize the spectator experience at horse racing\u2019s most prestigious Classic."
+                },
+                {
+                    "model": "Gemini 2.5 Flash (Legacy Stable)",
+                    "latency": 4.831,
+                    "summary": "The context outlines several upcoming major sporting events, including the 2026 Women's Rugby World Cup, the Milano Cortina Games introducing ski mountaineering, and the Commonwealth Games in Glasgow featuring diverse sports. Additionally, snooker's premier competition will mark its 50th year at the Crucible, and another \"Classic\" event is investing \u00a36m to boost spectator numbers while uniquely maintaining free entry."
+                }
+            ]
+        },
+        {
+            "category": "tech",
+            "context": "That pressure split hardware strategies: scale-up with superchips like H200, B200, GB200\u2014or scale-out with edge optimizations, quantization breakthroughs and small LLMs, she said. This will also mean that edge AI will move from hype to reality. And the hardware race won\u2019t only be about GPUs anymore. \u201cGPUs will remain king, but ASIC-based accelerators, chiplet designs, analog inference and even quantum-assisted optimizers will mature,\u201d El Maghraoui said. \u201cMaybe a new class of chips for agentic workloads will emerge.\u201d \u00b7 In 2026, the competition won\u2019t be on the AI models, but on the systems. Reporter Anabelle Nicoud spoke to several experts across AI, security, quantum and beyond to better understand where tech will take us in 2026. IBM has publicly stated that 2026 will mark the first time a quantum computer will be able to outperform a classical computer\u2014the point at which a quantum computer can solve a problem better than all classical-only methods. According to IBM, this milestone will unlock breakthroughs in drug development, materials science, financial optimization and more industries facing incredibly complex challenges. That means building sovereignty through modularity\u2014architecting AI environments so workloads, data and agents can shift among trusted regions and providers. \u201cContinuous monitoring is essential to detect and address model drift before it compromises performance or introduces bias,\u201d said Marshall. Discover the 5 business trends for 2026 in IBV\u2019s latest report",
+            "benchmarks": [
+                {
+                    "model": "GPT-5.2 (Flagship)",
+                    "latency": 4.016,
+                    "summary": "AI hardware strategies are splitting between scaling up with superchips and scaling out via edge optimizations like quantization and small LLMs, with GPUs still leading but new accelerators (ASICs, chiplets, analog inference, possibly quantum-assisted or agent-focused chips) emerging as edge AI becomes real. By 2026, competition is expected to shift from models to systems, with modular \u201csovereign\u201d architectures, continuous monitoring for drift, and IBM projecting a quantum advantage milestone that could drive breakthroughs across complex industries."
+                },
+                {
+                    "model": "GPT-4.1 Mini",
+                    "latency": 1.851,
+                    "summary": "Hardware strategies in AI are diverging between scaling up with powerful superchips and scaling out through edge optimizations, quantization, and smaller models, signaling a shift beyond GPUs to include ASICs, chiplets, analog inference, and quantum accelerators. By 2026, the focus will be on AI systems and modular architectures that enable workload flexibility and continuous monitoring, with quantum computing poised to surpass classical methods, driving breakthroughs across various complex industries."
+                },
+                {
+                    "model": "Gemini 3 Pro",
+                    "latency": 14.398,
+                    "summary": "Hardware strategies are splitting between massive scale-up superchips and efficient edge solutions, driving an evolution beyond GPUs toward specialized ASICs and quantum technologies. This shift indicates that by 2026, competition will center on holistic system architectures and quantum milestones rather than just AI models, requiring new approaches to data sovereignty and governance."
+                },
+                {
+                    "model": "Gemini 3 Flash",
+                    "latency": 4.063,
+                    "summary": "By 2026, the technological focus will shift from individual AI models to integrated systems powered by diverse hardware, including specialized accelerators, edge-optimized chips, and quantum-assisted optimizers. This evolution will be headlined by quantum computing reaching a performance milestone over classical methods, driving industrial breakthroughs while necessitating modular architectures to ensure data sovereignty and reliability."
+                },
+                {
+                    "model": "Gemini 2.5 Flash (Legacy Stable)",
+                    "latency": 2.019,
+                    "summary": "By 2026, the AI hardware landscape will diversify beyond GPUs, splitting between superchips and edge optimization, and competition will shift from AI models to entire systems. This era will also see quantum computers surpass classical ones, unlocking breakthroughs in complex fields, alongside an emphasis on modularity and continuous monitoring for AI system sovereignty and performance."
+                }
+            ]
+        }
+    ],
+    "ai_judgment": "For **speed\u2011sensitive summarization**, the overall winner here is **GPT\u20114.1 Mini**.\n\n### Why (latency + quality)\n**Latency (lower is better):**\n- **GPT\u20114.1 Mini:** 1.576, 2.244, 1.851 \u2192 **avg ~1.89s** (fastest overall, consistently)\n- Gemini 2.5 Flash: avg ~2.82s (fast geopolitics/tech, but much slower on sports at 4.831s)\n- GPT\u20115.2: avg ~3.41s\n- Gemini 3 Flash: avg ~3.86s\n- Gemini 3 Pro: avg ~12.03s (not competitive for speed-sensitive use)\n\n**Summary quality (as shown in samples):**\n- **GPT\u20114.1 Mini** summaries are consistently accurate and well-scoped across all three categories, capturing the key facts without obvious omissions or fluff.\n- **Gemini 2.5 Flash** is close on quality and sometimes equally good, but its latency is less consistent (notably slower on the sports item).\n- **GPT\u20115.2** is strong quality-wise, but you pay a clear latency premium vs GPT\u20114.1 Mini.\n\n### Bottom line\nIf you need the best **overall tradeoff of low latency and solid, reliable summaries**, pick **GPT\u20114.1 Mini**. If you cared more about raw speed in just some cases and can tolerate variability, **Gemini 2.5 Flash** would be the runner-up."
+}

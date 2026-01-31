@@ -1,0 +1,47 @@
+[
+    {
+        "category": "geopolitics",
+        "url": "https://www.eurasiagroup.net/issues/top-risks-2026",
+        "context_used": "This year's report was published on 5 January 2026. Download Full Report Overview2026 is a tipping point year. It's a time of great geopolitical uncertainty. Not because there's imminent conflict between the two biggest powers, the United States and China\u2014that isn't even a top risk, it's a red herring this year. There's not (yet, at least) a second Cold War, with a rising China remaking the global system to its own liking, the Americans and allies resisting. The most dangerous front in Europe will shift from the trenches in Donetsk to the hybrid war between Russia and NATO. ... The most economically interventionist American administration since the New Deal will pick winners and losers at a scale not seen in modern US history. ... Beijing won\u2019t break out of its deflationary trap this year; instead, it will keep trying to export its way out, flooding global markets with cheap goods at everyone else\u2019s expense. Spheres of influence. Sell America. Eurasia Group\u2019s 2026 Red Herrings. ... These addendums for Brazil, Canada, Europe, and Japan further illustrate how global risks play out in different parts of the world, with specific implications for governments and businesses. Trump is attempting to dismantle checks on his power, capture the machinery of government, and weaponize it against his enemies, making the United States the principal source of global risk in 2026.",
+        "metrics": {
+            "gpt_4o": {
+                "latency": 2.363,
+                "output": "The 2026 report highlights significant geopolitical uncertainty, focusing on the hybrid war between Russia and NATO in Europe, rather than a direct US-China conflict. It notes the US government's unprecedented economic intervention and predicts China will continue to deal with deflation by exporting cheap goods. Global risks also emerge from former President Trump's efforts to consolidate power, positioning the United States as a major source of global instability."
+            },
+            "gemini_flash": {
+                "latency": 1.239,
+                "output": "The 2026 report highlights geopolitical uncertainty with a shifting European conflict and China's economic strategy. Key risks include the US becoming a major source of global risk due to potential dismantling of governmental checks and balances, and China's attempt to export its way out of deflation. These global risks will have specific implications for governments and businesses worldwide.\n"
+            }
+        }
+    },
+    {
+        "category": "sports",
+        "url": "http://www.espn.com/espn/latestnews",
+        "context_used": "Patriots' Vrabel not too worried about QB Maye's shoulder (January 29, 2026, 6:46 PM ET) Bills' Josh Allen expects to be ready for OTAs after foot surgery (January 29, 2026, 6:45 PM ET) Saleh: Playcalling, Cam Ward among priorities with Titans (January 29, 2026, 6:32 PM ET) AGA expects record $1.76 billion to be bet on Super Bowl LX (January 29, 2026, 6:27 PM ET)",
+        "metrics": {
+            "gpt_4o": {
+                "latency": 1.997,
+                "output": "Patriots coach Mike Vrabel is not overly concerned about quarterback Maye's shoulder injury. Bills quarterback Josh Allen anticipates being ready for the upcoming OTAs following his recent foot surgery. Meanwhile, the AGA projects a record $1.76 billion will be wagered on Super Bowl LX."
+            },
+            "gemini_flash": {
+                "latency": 0,
+                "output": "API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}"
+            }
+        }
+    },
+    {
+        "category": "movies",
+        "url": "https://editorial.rottentomatoes.com/article/the-most-anticipated-movies-of-2026/",
+        "context_used": "Beginning in 2010, the film series has gained a cult-like following with the most recent installment, Insidious: The Red Door (2023), scoring $189M worldwide at the box office. ... Release Date: September 11, 2026 Director: James Watkins Starring: Tom Rhys Harries, Naomi Ackie, Max Minghella The first film grossed over $70 million at the global box office and is Fresh on Rotten Tomatoes. A lot of the storyline for the sequel is under wraps, but director Tommy Wirkola has expressed interest in introducing a whole slew of new characters. ... Release Date: December 11, 2026 Director: Jake Kasdan Starring: Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan Release Date: January 9, 2026 Director: Ric Roman Waugh Starring: Gerard Butler, Morena Baccarin, Roman Griffith Davis \u00b7 Lionsgate has officially slated Greenland 2: Migration for release on January 9, 2026, marking the return of Gerard Butler and Morena Baccarin the post-apocalyptic survival saga. Release Date: April 3, 2026 Director: Aaron Horvath, Michael Jelenic Starring: Chris Pratt, Anya Taylor-Joy, Charlie Day, Keegan-Michael Key, Jack Black \u00b7 Mario is heading to space\u2026 or so we think. Thanks to a teaser released during a September 2025 Nintendo Direct broadcast, we now know that the official title to the Super Mario Bros.",
+        "metrics": {
+            "gpt_4o": {
+                "latency": 2.865,
+                "output": "The film series Insidious has developed a strong following since 2010, with its 2023 installment achieving $189 million globally. Upcoming films include Greenland 2: Migration, starring Gerard Butler and Morena Baccarin, releasing on January 9, 2026; a new Super Mario Bros. movie slated for April 3, 2026; and other movies directed by James Watkins and Jake Kasdan featuring notable stars like Dwayne Johnson, Kevin Hart, and Jack Black."
+            },
+            "gemini_flash": {
+                "latency": 1.433,
+                "output": "Several sequels with established franchises are slated for release in 2026, including \"Greenland 2: Migration\" starring Gerard Butler, a sequel to the \"Super Mario Bros\" movie, and an unnamed sequel to a film that grossed over $70 million globally. Additionally, a new installment in the \"Insidious\" horror franchise, which has garnered a cult following and box office success, was released in 2023.\n"
+            }
+        }
+    }
+]

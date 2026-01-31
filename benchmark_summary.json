@@ -1,0 +1,63 @@
+{
+  "overall_stats": {
+    "total_runs": 54,
+    "providers_tested": 2,
+    "categories_tested": 1,
+    "eval_models_used": 9
+  },
+  "provider_rankings": {
+    "Tavily": {
+      "avg_overall_score": 8.14,
+      "avg_search_time": 1.107,
+      "avg_relevance": 8.81,
+      "avg_freshness": 8.06,
+      "avg_quality": 7.78,
+      "std_dev": 1.6
+    },
+    "Brave": {
+      "avg_overall_score": 8.89,
+      "avg_search_time": 0.502,
+      "avg_relevance": 9.22,
+      "avg_freshness": 9.11,
+      "avg_quality": 8.67,
+      "std_dev": 0.59
+    }
+  },
+  "category_winners": {
+    "tech": {
+      "provider": "Brave",
+      "score": 10.0,
+      "params": {
+        "max_results": 7,
+        "search_depth": "basic",
+        "topic": "general"
+      }
+    }
+  },
+  "best_parameters": {
+    "Tavily": {
+      "max_results": 5,
+      "search_depth": "advanced",
+      "topic": "general"
+    },
+    "Brave": {
+      "max_results": 7,
+      "search_depth": "basic",
+      "topic": "general"
+    }
+  },
+  "speed_analysis": {
+    "fastest_provider": "Brave",
+    "avg_times": {
+      "Brave": 0.502,
+      "Tavily": 1.1067500000000001
+    }
+  },
+  "quality_analysis": {
+    "highest_quality_provider": "Brave",
+    "avg_scores": {
+      "Brave": 8.88888888888889,
+      "Tavily": 8.1425
+    }
+  }
+}

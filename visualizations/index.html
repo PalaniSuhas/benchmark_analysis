@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Dashboard</title>
+    <style>
+        body { display: flex; margin: 0; font-family: -apple-system, sans-serif; height: 100vh; background: #222; }
+        #sidebar { width: 280px; background: #333; border-right: 1px solid #444; padding: 20px; overflow-y: auto; flex-shrink: 0; }
+        #content-area { flex-grow: 1; background: white; }
+        iframe { width: 100%; height: 100%; border: none; }
+        button { 
+            display: block; width: 100%; text-align: left; padding: 12px; margin-bottom: 8px; 
+            cursor: pointer; border: none; border-radius: 6px; background: #444; color: #ddd;
+            transition: 0.2s; font-size: 14px;
+        }
+        button:hover { background: #555; color: white; }
+        button.active { background: #007AFF; color: white; }
+        h2 { font-size: 1.1rem; margin-top: 0; color: #007AFF; text-transform: uppercase; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+
+<div id="sidebar">
+    <h2>Project Assets</h2>
+    <div id="buttons">
+        <button onclick="loadViz('1_performance_heatmap.html', this)">1_performance_heatmap.html</button>
+<button onclick="loadViz('2_provider_comparison.html', this)">2_provider_comparison.html</button>
+<button onclick="loadViz('3_parameter_impact.html', this)">3_parameter_impact.html</button>
+<button onclick="loadViz('4_category_radar.html', this)">4_category_radar.html</button>
+<button onclick="loadViz('5_speed_vs_quality.html', this)">5_speed_vs_quality.html</button>
+<button onclick="loadViz('6_score_distribution.html', this)">6_score_distribution.html</button>
+<button onclick="loadViz('7_best_configurations.html', this)">7_best_configurations.html</button>
+<button onclick="loadViz('comprehensive_dashboard.html', this)">comprehensive_dashboard.html</button>
+<button onclick="loadViz('correlation_matrix.html', this)">correlation_matrix.html</button>
+<button onclick="loadViz('interactive_explorer.html', this)">interactive_explorer.html</button>
+<button onclick="loadViz('parameter_tuning_guide.html', this)">parameter_tuning_guide.html</button>
+<button onclick="loadViz('summary_stats.html', this)">summary_stats.html</button>
+<button onclick="loadViz('time_series.html', this)">time_series.html</button>
+<hr style="border: 0; border-top: 1px solid #555; margin: 15px 0;"><button onclick="loadViz('../Web Search Analysis.pdf', this)" style="background: #2e7d32; color: white;">📄 View Report (PDF)</button>
+    </div>
+</div>
+
+<iframe id="viewer" src="1_performance_heatmap.html"></iframe>
+
+<script>
+    function loadViz(file, btn) {
+        document.getElementById('viewer').src = file;
+        document.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+    }
+    // Highlight the first button on load
+    document.querySelector('button').classList.add('active');
+</script>
+
+</body>
+</html>
